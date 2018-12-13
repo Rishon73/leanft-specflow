@@ -1,6 +1,6 @@
 # leanft-specflow
 
-##### Simple C# LeanFT test demonstrating how to work with SpecFlow framework.
+#### Simple C# LeanFT test demonstrating how to work with SpecFlow framework.
 
 Learn how to install SpecFlow: https://specflow.org/documentation/instalaltion/
 
