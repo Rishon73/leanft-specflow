@@ -34,7 +34,6 @@ namespace leanft_specflow
         [TearDown]
         public void BasicTearDown()
         {
-            Console.WriteLine("***** Shahar ***** UnitTestClassBase::TearDown");
             TestTearDown();
         }
 
@@ -50,7 +49,7 @@ namespace leanft_specflow
 
         protected override Status GetFrameworkTestResult()
         {
-            Console.WriteLine("***** Shahar ***** UnitTestClassBase::GetFrameworkTestResult(" + TestContext.CurrentContext.Result.Outcome.Status.ToString() + ")");
+            Console.WriteLine("UnitTestClassBase::GetFrameworkTestResult(" + TestContext.CurrentContext.Result.Outcome.Status.ToString() + ")");
 
             switch (TestContext.CurrentContext.Result.Outcome.Status)
             {
