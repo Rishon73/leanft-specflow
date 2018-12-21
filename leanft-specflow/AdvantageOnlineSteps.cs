@@ -120,6 +120,7 @@ namespace leanft_specflow
             String webPrice;
             webPrice = webElement.InnerText;
 
+            
             if (price != webPrice.Trim())
                 Assert.Fail();
 
