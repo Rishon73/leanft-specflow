@@ -86,6 +86,13 @@ namespace leanft_specflow
                     break;
 
             }
+
+            var mICEShopNowLink = browser.Describe<ILink>(new LinkDescription
+            {
+                CSSSelector = @"div#micesImg",
+                XPath = @"//DIV[@id=""micesImg""]"
+            });
+
             IWebElement colorPicker = browser.Describe<IWebElement>(new WebElementDescription
             {
                 AccessibilityName = string.Empty,
